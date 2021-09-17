@@ -1,0 +1,27 @@
+/*
+* {outline: 1px solid red;}
+*/
+
+
+body{
+    background: #2C3E50;
+}
+
+div{
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: gray;
+    text-decoration: underline;
+}
+
+
+li{
+    list-style:none
+}
