@@ -1,28 +1,33 @@
-/*
-* {outline: 1px solid red;}
-*/
-
-
 body{
-    background: #2C3E50;
-    text-align: center;
-}
-
-div{
-
+	background-color: #242424;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 a{
-    color: white;
+    color:#FFFFFF;
     text-decoration: none;
 }
 
 a:active{
-    color: gray;
+    color: rgb(136, 136, 136);
     text-decoration: underline;
 }
 
+lu{
+	text-align: center
+}
 
 li{
-    list-style:none
+    list-style:none;
+}
+
+h3{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+div {
+    width: 300px;;
+    border-radius: 10px;
+    margin: 0 auto;
 }
