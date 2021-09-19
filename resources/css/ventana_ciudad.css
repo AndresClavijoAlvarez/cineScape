@@ -1,0 +1,33 @@
+body{
+	background-color: #242424;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+a:active{
+    color: rgb(136, 136, 136);
+    text-decoration: underline;
+}
+
+lu{
+	text-align: center
+}
+
+li{
+    list-style:none;
+}
+
+h3{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+div {
+    width: 300px;;
+    border-radius: 10px;
+    margin: 0 auto;
+}
