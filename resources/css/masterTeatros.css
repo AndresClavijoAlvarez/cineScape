@@ -1,0 +1,141 @@
+:root{
+    --rojo: #B70004;
+    --gris: #AAA;
+    --fondo: #242424;
+}
+
+body{
+	background-color: #242424;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.teatro-box {
+    width: 520px;
+    height: 410px;
+    background: var(--rojo);
+    color: var(--gris);
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+    border-radius: 4%;  
+  }
+  
+.teatro-box .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .teatro-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .teatro-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+    display: block;
+  }
+  
+  .teatro-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .teatro-box ::placeholder {
+    border: none;
+    border-bottom: 1px solid var(--gris);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+  }
+  
+  .teatro-box [type="text"] {
+    border: none;
+    border-bottom: 1px solid var(--gris);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: #fff;
+    font-size: 17px;
+  }
+  
+  .teatro-box input[type="submit"] {
+    height: 40px;
+    padding: 10px;
+    width: 149.95px;
+    background: #fff;
+    color: var(--rojo);
+    font-size: 100%;
+    border-radius: 10px;
+  }
+  
+  .teatro-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #6d0002;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  /* CONSULTA */
+
+  .consulta-box {
+    width: 600px;
+    height: 410px;
+    background: var(--rojo);
+    color: var(--gris);
+    top: 50%;
+    right: -17%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    border-radius: 4%;  
+  }
+
+  .consulta-box h1 {
+    top: -30px;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .consulta-box input {
+    width: 99%;
+    margin-bottom: 20px;
+  }
+
+  .consulta-box ::placeholder {
+    border: none;
+    border-bottom: 1px solid var(--gris);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+  }
+
+  .consulta-box [type="text"] {
+    border: none;
+    border-bottom: 1px solid var(--gris);
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: #fff;
+    font-size: 17px;
+  }
