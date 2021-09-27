@@ -7,24 +7,27 @@
 body{
 	background-color: #242424;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .teatro-box {
     width: 520px;
-    height: 410px;
     background: var(--rojo);
     color: var(--gris);
-    top: 50%;
-    left: 25%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    /*top: 50px;*/
+    /*left: 25%;*/
+    /*position: absolute;*/
+    /*transform: translate(-50%, -50%);*/
     box-sizing: border-box;
-    padding: 60px 30px;
-    border-radius: 4%;  
+    padding: 20px 30px;
+    border-radius: 4%;
+    margin: 0 auto;  
   }
   
-.teatro-box .logo {
+/*
+  .teatro-box .logo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -32,6 +35,7 @@ body{
     top: -50px;
     left: calc(50% - 50px);
   }
+*/
   
   .teatro-box h1 {
     margin: 0;
@@ -94,23 +98,24 @@ body{
   /* CONSULTA */
 
   .consulta-box {
-    width: 600px;
+    width: 520px;
     height: 410px;
     background: var(--rojo);
     color: var(--gris);
-    top: 50%;
-    right: -17%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    /*top: 50px;*/
+    /*right: -17%;*/
+    /*position: absolute;*/
+    /*transform: translate(-50%, -50%);*/
     box-sizing: border-box;
     padding: 20px 30px;
     border-radius: 4%;  
+    margin: 0 auto;
   }
 
   .consulta-box h1 {
     top: -30px;
     margin: 0;
-    padding: 0 0 20px;
+    /*padding: 0 0 20px;*/
     text-align: center;
     font-size: 24px;
     color: #fff;
