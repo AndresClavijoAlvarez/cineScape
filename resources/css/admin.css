@@ -1,0 +1,50 @@
+/*CSS Admin*/
+.admin#header {
+    background-color: #242424;
+    width: 100%;
+}
+
+.admin#logo {
+    line-height: 50px;
+    width: 200px;
+    height: 200px;
+}
+  
+.admin nav {
+    display:flex;
+    border-radius: 10px;
+}
+
+.admin#nav-menu {
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+}
+
+.admin#nav-menu-item {
+    font-size: 18px;
+    margin: 10px 10px;
+    line-height: 50px;
+    text-transform:uppercase;
+    width: max-content;
+    color: white;
+}
+
+.admin#nav-menu-link {
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin#nav-menu-link:hover, .admin#nav-menu-link:active {
+    background-color: #B70004;
+    transition: 0.5s;
+}
+
+.admin#admin_iframe{
+    border-style: none;
+    width: 100%;
+    min-height:1000px;
+}
