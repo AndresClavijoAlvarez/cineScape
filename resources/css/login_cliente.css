@@ -1,9 +1,5 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-}
-
-div {
+/*CSS Login Cliente*/
+.login_cliente div {
     margin: 0 auto;
     width: fit-content;
     height: fit-content;
@@ -11,10 +7,30 @@ div {
     padding: 10pt;
 }
 
-label, input {
+.login_cliente label, input {
     border-radius: 15px;
     text-align: center;
     padding: 5pt;
     font-weight: bold;
 }
 
+.login_cliente a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.login_cliente a:active{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.login_cliente a:visited{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFFFFF;
+    text-decoration: none;
+}
