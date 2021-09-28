@@ -97,7 +97,7 @@ const numeroPaginas2 = Math.ceil(peliculas2.length / 5);
 for(let i = 0; i < numeroPaginas2; i++){
 	const indicador2 = document.createElement('button');
 
-	if(i === 0){
+	if(i == 0){
 		indicador2.classList.add('activo');
 	}
 
