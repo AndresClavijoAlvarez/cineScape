@@ -1,0 +1,52 @@
+/*CSS Ventana Ciudad*/
+.ventana_ciudad#div_logo_ventana_ciudad{    
+    width: 200px;
+    margin: 0 auto;
+}
+
+.ventana_ciudad#logo_ventana_ciudad{
+    width: 200px;
+    height: 200px;
+}
+
+.ventana_ciudad#encabezado_ventana_ciudad{
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #B70004;
+}
+
+.ventana_ciudad h3 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.ventana_ciudad a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.ventana_ciudad a:active{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.ventana_ciudad a:visited{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+
+.ventana_ciudad lu {
+	list-style: none;
+}
+
+.ventana_ciudad li {
+    list-style: none;
+}

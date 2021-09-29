@@ -1,0 +1,343 @@
+:root{
+    --rojo: #B70004;
+    --gris: #AAA;
+    --blanco: #FFF;
+    --negro: #000;
+    --fondo: #242424;
+}
+
+*{
+    /*outline: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.barra{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    padding: 30px 0;
+}
+
+header .barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logotipo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--rojo);
+    font-size: 40px;
+}
+
+.logotipo.boton i{
+    margin-right: 20px;
+}
+
+header nav a{
+    color: var(--gris) ;
+    text-decoration: none;
+    margin: 20px;
+}
+
+header nav a:hover,
+header nav a.activo{
+    color: var(--blanco);
+}
+
+/* ----- Barra 1 -----*/
+
+.barra-titulo {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.barra-titulo h3 {
+	color: var(--blanco);
+	font-size: 30px;
+}
+
+.barra-titulo .indicadores button {
+	background: var(--blanco);
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.barra-titulo .indicadores button:hover,
+.barra-titulo .indicadores button.activo {
+	background: var(--rojo);
+}
+
+/* ----- Barra 2 ----- */
+
+.barra-titulo2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.barra-titulo2 h3 {
+	color: var(--blanco);
+	font-size: 30px;
+}
+
+.barra-titulo2 .indicadores2 button {
+	background: var(--blanco);
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.barra-titulo2 .indicadores2 button:hover,
+.barra-titulo2 .indicadores2 button.activo {
+	background: var(--rojo);
+}
+
+/* ----- Peliculas Principales ----- */
+
+.pelis-principales {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: var(--blanco);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/Panda.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelis-principales .barra {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.pelis-principales .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.pelis-principales .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.pelis-principales .boton {
+    background: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: var(--blanco);
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.pelis-principales .boton:hover {
+    background: var(--blanco);
+    color: var(--negro);
+}
+
+.pelis-principales .boton i {
+    margin-right: 1.25em;
+}
+
+/* Peliculas 1 */
+.pelis-cartelera {
+	margin-bottom: 70px;
+}
+
+.pelis-cartelera .barra-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.pelis-cartelera .barra-principal .flecha-izquierda,
+.pelis-cartelera .barra-principal .flecha-derecha {
+	position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: var(--blanco);
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.pelis-cartelera .barra-principal .flecha-izquierda:hover,
+.pelis-cartelera .barra-principal .flecha-derecha:hover {
+	background: rgba(0,0,0, .9);
+}
+
+.pelis-cartelera .barra-principal .flecha-izquierda {
+	left: 0;
+}
+
+.pelis-cartelera .barra-principal .flecha-derecha {
+	right: 0;
+}
+
+/*  Carrusel 1  */
+.pelis-cartelera .barra-carrusel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.pelis-cartelera .barra-carrusel .carrusel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.pelis-cartelera .barra-carrusel .carrusel .pelicula {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.pelis-cartelera .barra-carrusel .carrusel .pelicula.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.pelis-cartelera .barra-carrusel .carrusel .pelicula img {
+	width: 100%;
+	vertical-align: top;
+}
+
+/*Peliculas 2*/
+
+.pelis-recomendadas {
+	margin-bottom: 70px;
+}
+
+.pelis-recomendadas .barra-principal2 {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.pelis-recomendadas .barra-principal2 .flecha-izquierda2,
+.pelis-recomendadas .barra-principal2 .flecha-derecha2 {
+	position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: var(--blanco);
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.pelis-recomendadas .barra-principal2 .flecha-izquierda2:hover,
+.pelis-recomendadas .barra-principal2 .flecha-derecha2:hover {
+	background: rgba(0,0,0, .9);
+}
+
+.pelis-recomendadas .barra-principal2 .flecha-izquierda2 {
+	left: 0;
+}
+
+.pelis-recomendadas .barra-principal2 .flecha-derecha2 {
+	right: 0;
+} 
+
+
+/* Carrusel 2 */
+
+.pelis-recomendadas .barra-carrusel2 {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.pelis-recomendadas .barra-carrusel2 .carrusel2 {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.pelis-recomendadas .barra-carrusel2 .carrusel2 .pelicula2 {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.pelis-recomendadas .barra-carrusel2 .carrusel2 .pelicula2.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.pelis-recomendadas .barra-carrusel2 .carrusel2 .pelicula2 img {
+	width: 100%;
+	vertical-align: top;
+}
+
+/* ----- Queries ----- */
+
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .barra {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pelicula-principal {
+		font-size: 14px;
+	}
+
+	.pelicula-principal .descripcion {
+		max-width: 100%;
+	}
+
+	.peliculas-recomendadas .barra-carrusel {
+		overflow: visible;
+	}
+
+	.peliculas-recomendadas .barra-carrusel .barra-carrusel {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	.peliculas-recomendadas .indicadores,
+	.peliculas-recomendadas .flecha-izquierda,
+	.peliculas-recomendadas .flecha-derecha {
+		display: none;
+	}
+}
