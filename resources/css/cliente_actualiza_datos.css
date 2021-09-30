@@ -1,0 +1,134 @@
+:root{
+    --rojo: #B70004;
+    --gris: #FFFFFF;
+    --fondo: #242424;
+}
+
+body{
+	background-color: #242424;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.act-datos-box {
+  width: 520px;
+  height: 640px;
+  background: var(--rojo);
+  color: var(--gris);
+  margin-top: 100px;
+  margin: 6% auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  border-radius: 4%;  
+}
+
+.act-datos-box .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+  
+.act-datos-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+ 
+.act-datos-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 17px;
+  color: #FFFFFF;
+  display: block;
+}
+  
+.act-datos-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+  
+.act-datos-box ::placeholder {
+  border: none;
+  border-bottom: 1px solid var(--gris);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #FFFFFF;
+}
+  
+.act-datos-box [type="text"] {
+  border: none;
+  border-bottom: 1px solid var(--gris);
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.act-datos-box [type="email"] {
+  border: none;
+  border-bottom: 1px solid var(--gris);
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.act-datos-box [type="password"] {
+  border: none;
+  border-bottom: 1px solid var(--gris);
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.act-datos-box [type="date"] {
+  border: none;
+  border-bottom: 1px solid var(--gris);
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #fff;
+  column-rule: #fff;
+  font-size: 17px;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+  
+.act-datos-box input[type="submit"] {
+  position: relative;
+  border: none;
+  height: 40px;
+  width: 120px;
+  margin-top: 8px;
+  margin-left: 35%;
+  background: #fff;
+  color: var(--rojo);
+  font-size: 100%;
+  font-weight: bold;
+  border-radius: 10px;
+}
+  
+.act-datos-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: var(--fondo);
+  font-weight: bold;
+  color: #fff;
+}
