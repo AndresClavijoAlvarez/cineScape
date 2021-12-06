@@ -1,2 +1,2 @@
 # cineScape
-En este proyecto crearemos un sistema para una empresa de cine.
+Web App para Empresa de cine.
